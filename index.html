@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mitmproxy - home</title>
+        
+
+
+<link  href="01-vendor-d3ed69e6.css" type="text/css" rel="StyleSheet"/>
+<link  href="02-app-092c3704.css" type="text/css" rel="StyleSheet"/>
+<script src="01-jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="02-bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button"
+                            class="navbar-toggle collapsed"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                    >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img height="20px" src="mitmproxy-long.png"/>
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"> <a href="./index.html">首页</a> </li>
+			<li> <a href="http://community.mitmproxy.cn">交流社区</a>
+                        <!--<li ><a href="./doc/index.html">docs</a></li>-->
+                        <!--<li ><a href="./about.html">about</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+           <div class="masthead container">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="./images/mitmproxy.png" title="mitmproxy">
+                <img width="50%" src="./images/mitmproxy-small.png" border="0">
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+
+            <h2><a href="doc/mitmproxy.html">mitmproxy</a></h2>
+
+            <p>An interactive console program that allows traffic flows to be intercepted, inspected, modified and replayed.</p>
+
+        </div>
+
+        <div class="col-md-4">
+            <h2><a href="doc/mitmdump.html">mitmdump</a></h2>
+
+            <p>Think tcpdump for HTTP - the same functionality as mitmproxy
+            without the frills.</p>
+
+        </div>
+
+        <div class="col-md-4">
+            <h2><a href="doc/scripting/libmproxy.html">libmproxy</a></h2>
+
+            <p>A library for implementing powerful interception proxies.</p>
+
+        </div>
+
+    </div>
+</div>
+
+<hr/>
+
+<div class="frontpage container">
+    <section>
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <h2>install</h2>
+
+                <pre>pip install mitmproxy</pre>
+
+                <p>See the installation instructions for more.</p>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <h2>source</h2>
+
+                <ul>
+                    <li>Current release - <b>0.13:</b><br/>
+                        <a href="download/mitmproxy-0.13.tar.gz">
+                            mitmproxy
+                        </a> <br/>
+                        <a href="download/netlib-0.13.1.tar.gz">
+                            netlib
+                        </a>
+                    </li>
+
+                    <li>GitHub: <a href="https://github.com/mitmproxy/mitmproxy">github.com/mitmproxy/mitmproxy</a></li>
+                </li>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <h2>binaries</h2>
+
+
+                 <table>
+                    <tr>
+                        <td>
+                            <a href="download/osx-mitmproxy-0.13.tgz">
+                                <img width="60" src="images/apple.png"/>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="download/osx-mitmproxy-0.13.tgz">
+                                OSX (Mountain Lion and later)
+                            </a>
+                        </td>
+                    </tr>
+                 </table>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <hr/>
+
+    <section>
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <h2>chat</h2>
+
+                <ul>
+
+                    <li><b>IRC - #mitmproxy</b> on <a href="http://www.oftc.net/">OFTC</a><br/>
+                    (irc://irc.oftc.net:6667).</li>
+
+                    <li><b>Slack developer chat</b> Join up <a
+                    href="https://mitmproxy-slack.herokuapp.com/">here</a>.</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h2>mailing list</h2>
+                <table class="googlegroups">
+                    <tr>
+                        <td style="padding-left: 5px;">
+                            <form action="https://groups.google.com/group/mitmproxy/boxsubscribe">
+                                <input type="text" name="email" placeholder="email">
+                                <input type=submit name="sub" value="Subscribe">
+                            <a href="https://groups.google.com/group/mitmproxy">Visit this group</a>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align=right>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+        <div class="col-md-4">
+            <h2>bug tracker</h2>
+
+            <p>Please report bugs on the <a href="https://github.com/mitmproxy/mitmproxy/issues?state=open">Github issue tracker.</a></p>
+
+        </div>
+    </div>
+    </section>
+
+    <hr/>
+
+    <section>
+    <div class="row">
+        <div class="col-md-4">
+            <h2> related projects </h2>
+            <div>
+                <h3><a href="http://pathod.net">pathod</a></h3>
+
+                <p>A pathological web daemon, and a perverse HTTP client.  Started
+                to provide better testing for mitmproxy, it has now taken on an
+                evil life of its own. </p>
+
+            </div>
+
+            <div>
+                <h3><a href="http://netograph.com">netograph</a></h3>
+
+                <p> A privacy analysis project, built using the <a
+                href="doc/scripting/libmproxy.html">libmproxy</a> library.
+                An example of a high-performance server-side application of
+                mitmproxy. </p>
+            </div>
+
+            <div>
+                <h3><a href="https://dutzi.github.io/tamper/">tamper</a></h3>
+
+                <p>A mitmproxy based devtools extension that lets you edit
+                remote files locally and serve them directly to Chrome.  </p>
+
+            </div>
+
+            <div>
+                <h3>
+                    <a href="https://github.com/secretsquirrel/BDFProxy">
+                        bdfproxy
+                    </a>
+                </h3>
+
+                <p>BackDoorFactory + mitmproxy - patch binaries with shell
+                code on the fly.  </p>
+            </div>
+
+
+        </div>
+        <div class="col-md-4 talks">
+            <h2> talks & writings </h2>
+
+            <div>Paul Ohm <a href="http://cyber.jotwell.com/an-internet-x-ray-machine-for-the-masses/">An Internet X-Ray Machine for the Masses</a></div>
+
+            <div>Aldo Cortesi <a href="http://corte.si/posts/security/skout/index.html">Skout: a devastating privacy vulnerability</a></div>
+
+            <div>Aldo Cortesi <a href="http://corte.si/posts/security/udid-must-die/index.html">Why the Apple UDID had to die</a></div>
+
+            <div>Aldo Cortesi <a href="http://corte.si/posts/security/apple-udid-survey/index.html">How UDIDs are used: a survey</a></div>
+
+            <div>Aldo Cortesi <a href="http://corte.si/posts/security/openfeint-udid-deanonymization/index.html">De-anonymizing Apple UDIDs with OpenFeint</a></div>
+
+            <div>Maximilian Hils <a href="https://www.youtube.com/watch?v=hPuOtJbxJT8">Slaying SSL dragons with mitmproxy</a></div>
+
+            <div>Arun Thampi, <a href="http://mclov.in/2012/02/08/path-uploads-your-entire-address-book-to-their-servers.html">Path uploads your entire iPhone address book to its servers</a></div>
+
+            <div>Jeremy Singer-Vine and Jennifer Valentino-DeVries, WSJ, <a href="http://blogs.wsj.com/digits/2012/12/07/sites-sharing-personal-details-the-journal-methodology/">Sites Sharing Personal Details: The Journal鈥檚 Tests</a></div>
+
+            <div>Jim Cheetham <a href="https://www.youtube.com/watch?v=kQ1-0G90lQg">mitmproxy - use and abuse of a hackable SSL-capable man-in-the-middle proxy</a></div>
+
+            <div>Christian Weiske <a href="http://cweiske.de/tagebuch/ouya-is-watching.htm">OUYA is watching you</a></div>
+
+            <div>Peter B Marks <a href="http://blog.marxy.org/2013/08/reverse-engineering-network-traffic.html">Reverse engineering network traffic with a Raspberri Pi</a></div>
+
+            <div>Mark L. Chang <a href="http://blog.markchang.net/post/17244167951/hipster-uploads-part-of-your-iphone-address-book-to-its">Hipster uploads part of your iPhone address book to its servers</a></div>
+
+            <div>Drew Davidson, Matt Fredrikson, Somesh Jha <a href="http://davidson-www.cs.wisc.edu/baa/blog.php?storyid=19">mitmproxy: the Attack Tool Keeping Devs Honest</a></div>
+
+            <div>Martijn Terpstra <a href="http://www.cs.ru.nl/bachelorscripties/2013/Martijn_Terpstra___0814962___WhatsApp_and_privacy.pdf">WhatsApp & privacy</a></div>
+
+            <div>Holger Eilhard <a href="http://holgr.com/blog/2012/03/apple-starts-using-their-own-mapping-service-ditching-google-maps/">Apple starts using their own mapping service, ditches Google Maps</a></div>
+
+            <div>Robin M眉ller <a href="http://www.sba-research.org/pubs/reevaluating_smartphone_app_security.pdf">Re-evaluating Smartphone
+            Messaging Application Security</a></div>
+
+            <div>Pierre-Eric Marchandet <a href="http://pem-musing.blogspot.fr/2014/12/debugging-server-side-rest-calls-with.html">Debugging server side REST calls with mitmproxy in Meteor</a></div>
+
+            <div>attify <a href="http://blog.attify.com/2014/12/26/quizup-ios-app-security-vulnerability-win-quiz/">WIN any quiz : QuizUp iOS App Security Vulnerability</a></div>
+
+            <div>Shubhro Saha <a href="http://www.shubhro.com/2014/12/18/reverse-engineering-kayak-mitmproxy/">Reverse-engineering the Kayak app with mitmproxy</a></div>
+
+
+            <div>Jeff Huang <a href="http://jeffhuang.com/extracting_my_data_from_the_microsoft_band.html">Extracting My Data from the Microsoft Band</a></div>
+
+
+
+        </div>
+        <div class="col-md-4">
+            <h2> chatter </h2>
+
+                <a
+                    class="twitter-timeline"
+                    data-dnt="true"
+                    href="https://twitter.com/mitmproxy/favorites"
+                    data-widget-id="525136772666118144"
+                    height="800"
+                >
+                        Tweets about mitmproxy
+                    </a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </div>
+
+    </div>
+    </section>
+</div>
+
+        </div>
+
+
+        <div class="container">
+          <footer>
+            <hr>
+            <p>Copyright 2014 Aldo Cortesi</p>
+          </footer>
+        </div>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-4150636-13']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </body>
+</html>
+
